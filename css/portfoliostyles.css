@@ -1,7 +1,9 @@
 
 /*домашнее задание 5*/
 
+.text{
 
+}
 
 
 
@@ -385,8 +387,12 @@ color: var(--sec-txt-color);
 text-decoration: none;
 
 }
+
+
+
+
+
 .text { 
-  display: none;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -394,9 +400,45 @@ line-height: 1.56;
 letter-spacing: 0.03em;
 text-decoration: none;
 color: var(--part-txt-color);
-background: var(--accent-bg-color)
-
 }
+
+
+
+.port-text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30%;
+  height: 50%;
+
+  padding: 63px 24px;
+
+  background-color: rgba(33, 150, 243, 0.9);
+
+   transform: translateY(100%);
+  transition: transform 250ms,  cubic-bezier(0.4, 0, 0.2, 1);
+}
+.text {
+  padding: 0;
+  margin: 0;
+
+   color: 250ms;
+}
+.portfolio-link:hover .port-text {
+  overflow: visible;
+  transform: translateY(0);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* opacity: 1; */
+}
+
+
+
+
+
+
+
+
+
 .footer{
 font-style: normal;
 font-weight: normal;
