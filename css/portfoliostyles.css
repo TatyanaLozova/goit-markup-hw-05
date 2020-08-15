@@ -409,7 +409,7 @@ color: var(--part-txt-color);
 }
 
 .port-text {
-  position: relative;
+  position: absolute;
   left: 0;
   top: 0;
   width: 100%;
