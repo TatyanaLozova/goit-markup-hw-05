@@ -1,16 +1,28 @@
 
 /*домашнее задание 5*/
 
-.text{
+
+.active-link::after {
+  display: flex;
+  position: absolute;
+  content: "";
+  top: 40px;
+  left: 0px;
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  background: #2196f3;
+  transform: translateY(900%);
 
 }
 
-
-
-
-
-
-
+.menu-link {
+  position: relative;
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 
 /*домашнее задание 4*/
