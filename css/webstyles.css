@@ -448,6 +448,12 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--part-txt-color);
 background:  #f0f0f0
+bottom: 0px;
+
+width: 370px;
+height: 70px;
+margin: 0px;
+ 
 }
 
 
@@ -613,6 +619,7 @@ color: var(--features-bg-color);
 
 .item {
 width: calc((100% - 60px) / 3);
+position: relative;
 }
 
 .what {
