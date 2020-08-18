@@ -2,20 +2,6 @@
 /*домашнее задание 5*/
 
 
-.active-link::after {
-  display: flex;  
-  content: "";
-  top: 40px;
-  left: 0px;
-  height: 4px;
-  width: 100%;
-  border-radius: 2px;
-  background: #2196f3;
-  transform: translateY(32px);
-
-}
-
-
 
 /*домашнее задание 4*/
 /*контакты в шапке*/
@@ -109,12 +95,6 @@ background-color: var(--accent-color);
   
  }
  
-
-
-
-
-
-
 
 
 html {
@@ -346,6 +326,21 @@ margin-top: 0px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+
+/*синяя полоска актив*/
+.active-link::after {
+  display: flex;  
+  content: "";
+  top: 40px;
+  left: 0px;
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  background: #2196f3;
+  transform: translateY(32px);
+
+}
+
 .menu-list {
   list-style: none;
 }
